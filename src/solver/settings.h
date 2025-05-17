@@ -7,8 +7,8 @@
 // In rough order of importance.
 
 // The shape of the board.
-inline constexpr int BOARD_WIDTH = 7;
-inline constexpr int BOARD_HEIGHT = 6;
+inline constexpr int BOARD_WIDTH = 8;
+inline constexpr int BOARD_HEIGHT = 8;
 
 // Number of search threads. If 0, the number concurrent threads available on the machine is used.
 inline constexpr int NUM_THREADS = 0;
